@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SharePreferenceApplication</string>
+    <string name="lbl_enter_address">Enter Address</string>
+    <string name="lbl_save">Save</string>
+    <string name="lbl_enter_phone">Enter Phone</string>
+    <string name="lbl_enter_email">Enter Email</string>
+    <string name="lbl_enter_name">Enter Name</string>
+    <string name="lbl_view">View</string>
+    <string name="lbl_clear">Clear</string>
+</resources>

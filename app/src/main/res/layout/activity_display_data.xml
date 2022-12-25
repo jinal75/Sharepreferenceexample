@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sharepref.DisplayDataActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/txt_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="15dp"
+            android:background="@drawable/item_edit_backgtound"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="15dp"
+            android:background="@drawable/item_edit_backgtound"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+
+            />
+        <TextView
+            android:id="@+id/txt_Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="15dp"
+            android:background="@drawable/item_edit_backgtound"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+
+            />
+        <TextView
+            android:id="@+id/txt_Email"
+            android:padding="15dp"
+            android:background="@drawable/item_edit_backgtound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+
+            />
+        <TextView
+            android:padding="15dp"
+            android:background="@drawable/item_edit_backgtound"
+            android:id="@+id/txt_Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+
+            />
+        <TextView
+            android:padding="15dp"
+            android:background="@drawable/item_edit_backgtound"
+            android:id="@+id/txt_ConfPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:id="@+id/btn_Logout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Logout"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
